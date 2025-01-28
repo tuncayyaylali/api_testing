@@ -1,0 +1,62 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1738094699421,13455,HTTP Request - Get Data,200,OK,Thread Group 1-1,text,true,,105045525,124,2,2,http://localhost:8000/data/,13245,0,24
+1738094712879,0,HTTP Request - Get Data Item,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 28: http://localhost:8000/data/${invoice_no}?invoice_no=536373,Thread Group 1-1,text,false,,1145,0,2,2,http://localhost:8000/data/${invoice_no}?invoice_no=536373,0,0,0
+1738094699818,22761,HTTP Request - Get Data,200,OK,Thread Group 1-2,text,true,,105045525,124,2,2,http://localhost:8000/data/,22591,0,1
+1738094722579,0,HTTP Request - Get Data Item,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 28: http://localhost:8000/data/${invoice_no}?invoice_no=536373,Thread Group 1-2,text,false,,1145,0,2,2,http://localhost:8000/data/${invoice_no}?invoice_no=536373,0,0,0
+1738094712880,10280,HTTP Request - Sales Summary,200,OK,Thread Group 1-1,text,true,,158,133,2,2,http://localhost:8000/sales_summary/,10280,0,0
+1738094722580,646,HTTP Request - Sales Summary,200,OK,Thread Group 1-2,text,true,,158,133,2,2,http://localhost:8000/sales_summary/,646,0,0
+1738094723160,13699,HTTP Request - Get Data,200,OK,Thread Group 1-1,text,true,,105045525,124,2,2,http://localhost:8000/data/,13486,0,0
+1738094736859,0,HTTP Request - Get Data Item,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 28: http://localhost:8000/data/${invoice_no}?invoice_no=536373,Thread Group 1-1,text,false,,1145,0,2,2,http://localhost:8000/data/${invoice_no}?invoice_no=536373,0,0,0
+1738094723227,22935,HTTP Request - Get Data,200,OK,Thread Group 1-2,text,true,,105045525,124,2,2,http://localhost:8000/data/,22744,0,0
+1738094746162,0,HTTP Request - Get Data Item,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 28: http://localhost:8000/data/${invoice_no}?invoice_no=536373,Thread Group 1-2,text,false,,1145,0,2,2,http://localhost:8000/data/${invoice_no}?invoice_no=536373,0,0,0
+1738094736860,9809,HTTP Request - Sales Summary,200,OK,Thread Group 1-1,text,true,,158,133,2,2,http://localhost:8000/sales_summary/,9809,0,0
+1738094746163,617,HTTP Request - Sales Summary,200,OK,Thread Group 1-2,text,true,,158,133,1,1,http://localhost:8000/sales_summary/,617,0,0
+1738094994952,13336,HTTP Request,200,OK,Thread Group 1-1,text,true,,105045690,283,2,2,http://localhost:8000/data/?invoice_no=536373,36,0,29
+1738094994952,40,HTTP Request-0,307,Temporary Redirect,Thread Group 1-1,,true,,165,141,2,2,http://localhost:8000/data?invoice_no=536373,36,0,29
+1738094994994,13294,HTTP Request-1,200,OK,Thread Group 1-1,text,true,,105045525,142,2,2,http://localhost:8000/data/?invoice_no=536373,13113,0,0
+1738094995860,21701,HTTP Request,200,OK,Thread Group 1-2,text,true,,105045690,283,2,2,http://localhost:8000/data/?invoice_no=536373,137,0,1
+1738094995860,137,HTTP Request-0,307,Temporary Redirect,Thread Group 1-2,,true,,165,141,2,2,http://localhost:8000/data?invoice_no=536373,137,0,1
+1738094995997,21564,HTTP Request-1,200,OK,Thread Group 1-2,text,true,,105045525,142,2,2,http://localhost:8000/data/?invoice_no=536373,21380,0,0
+1738095008302,23380,HTTP Request,200,OK,Thread Group 1-1,text,true,,105045690,283,2,2,http://localhost:8000/data/?invoice_no=536373,9083,0,0
+1738095008302,9083,HTTP Request-0,307,Temporary Redirect,Thread Group 1-1,,true,,165,141,2,2,http://localhost:8000/data?invoice_no=536373,9083,0,0
+1738095017385,14297,HTTP Request-1,200,OK,Thread Group 1-1,text,true,,105045525,142,2,2,http://localhost:8000/data/?invoice_no=536373,14089,0,0
+1738095017562,26009,HTTP Request,200,OK,Thread Group 1-2,text,true,,105045690,283,1,1,http://localhost:8000/data/?invoice_no=536373,1,0,0
+1738095017562,1,HTTP Request-0,307,Temporary Redirect,Thread Group 1-2,,true,,165,141,1,1,http://localhost:8000/data?invoice_no=536373,1,0,0
+1738095017563,26008,HTTP Request-1,200,OK,Thread Group 1-2,text,true,,105045525,142,1,1,http://localhost:8000/data/?invoice_no=536373,25831,0,0
+1738095100692,20439,HTTP Request,200,OK,Thread Group 1-1,text,true,,105045525,142,5,5,http://localhost:8000/data/?invoice_no=536373,20251,0,29
+1738095100972,31359,HTTP Request,200,OK,Thread Group 1-2,text,true,,105045525,142,5,5,http://localhost:8000/data/?invoice_no=536373,31076,0,2
+1738095101372,42316,HTTP Request,200,OK,Thread Group 1-3,text,true,,105045525,142,5,5,http://localhost:8000/data/?invoice_no=536373,42128,0,2
+1738095102172,51000,HTTP Request,200,OK,Thread Group 1-5,text,true,,105045525,142,5,5,http://localhost:8000/data/?invoice_no=536373,50794,0,1
+1738095101772,62542,HTTP Request,200,OK,Thread Group 1-4,text,true,,105045525,142,5,5,http://localhost:8000/data/?invoice_no=536373,62391,0,2
+1738095164313,19688,HTTP Request,200,OK,Thread Group 1-4,text,true,,105045525,142,5,5,http://localhost:8000/data/?invoice_no=536373,19504,0,3
+1738095153175,40220,HTTP Request,200,OK,Thread Group 1-5,text,true,,105045525,142,5,5,http://localhost:8000/data/?invoice_no=536373,40041,0,0
+1738095143689,59193,HTTP Request,200,OK,Thread Group 1-3,text,true,,105045525,142,5,5,http://localhost:8000/data/?invoice_no=536373,59005,0,0
+1738095132331,80452,HTTP Request,200,OK,Thread Group 1-2,text,true,,105045525,142,5,5,http://localhost:8000/data/?invoice_no=536373,80191,0,0
+1738095121149,103250,HTTP Request,200,OK,Thread Group 1-1,text,true,,105045525,142,5,5,http://localhost:8000/data/?invoice_no=536373,103077,0,0
+1738095193395,50911,HTTP Request,200,OK,Thread Group 1-5,text,true,,105045525,142,5,5,http://localhost:8000/data/?invoice_no=536373,50714,0,2
+1738095184004,70661,HTTP Request,200,OK,Thread Group 1-4,text,true,,105045525,142,5,5,http://localhost:8000/data/?invoice_no=536373,70486,0,0
+1738095202882,61420,HTTP Request,200,OK,Thread Group 1-3,text,true,,105045525,142,5,5,http://localhost:8000/data/?invoice_no=536373,61249,0,4
+1738095224400,49553,HTTP Request,200,OK,Thread Group 1-1,text,true,,105045525,142,5,5,http://localhost:8000/data/?invoice_no=536373,49339,0,2
+1738095212786,70879,HTTP Request,200,OK,Thread Group 1-2,text,true,,105045525,142,5,5,http://localhost:8000/data/?invoice_no=536373,70722,0,1
+1738095254667,48905,HTTP Request,200,OK,Thread Group 1-4,text,true,,105045525,142,5,5,http://localhost:8000/data/?invoice_no=536373,48725,0,3
+1738095273954,39746,HTTP Request,200,OK,Thread Group 1-1,text,true,,105045525,142,5,5,http://localhost:8000/data/?invoice_no=536373,39567,0,0
+1738095244308,78776,HTTP Request,200,OK,Thread Group 1-5,text,true,,105045525,142,5,5,http://localhost:8000/data/?invoice_no=536373,78610,0,0
+1738095264304,68472,HTTP Request,200,OK,Thread Group 1-3,text,true,,105045525,142,5,5,http://localhost:8000/data/?invoice_no=536373,68293,0,1
+1738095283666,61154,HTTP Request,200,OK,Thread Group 1-2,text,true,,105045525,142,5,5,http://localhost:8000/data/?invoice_no=536373,60950,0,1
+1738095303573,61462,HTTP Request,200,OK,Thread Group 1-4,text,true,,105045525,142,5,5,http://localhost:8000/data/?invoice_no=536373,61288,0,0
+1738095332778,41903,HTTP Request,200,OK,Thread Group 1-3,text,true,,105045525,142,4,4,http://localhost:8000/data/?invoice_no=536373,41720,0,2
+1738095323085,63956,HTTP Request,200,OK,Thread Group 1-5,text,true,,105045525,142,3,3,http://localhost:8000/data/?invoice_no=536373,63807,0,2
+1738095344822,51803,HTTP Request,200,OK,Thread Group 1-2,text,true,,105045525,142,2,2,http://localhost:8000/data/?invoice_no=536373,51625,0,4
+1738095313702,92476,HTTP Request,200,OK,Thread Group 1-1,text,true,,105045525,142,1,1,http://localhost:8000/data/?invoice_no=536373,92338,0,3
+1738095626793,13979,HTTP Request - Data,200,OK,Thread Group 1-1,text,true,,105045525,142,2,2,http://localhost:8000/data/?invoice_no=536373,13775,0,29
+1738095627688,22402,HTTP Request - Data,200,OK,Thread Group 1-2,text,true,,105045525,142,2,2,http://localhost:8000/data/?invoice_no=536373,22222,0,2
+1738095640781,9902,HTTP Request - Data Item,200,OK,Thread Group 1-1,text,true,,3282,148,2,2,http://localhost:8000/data/536373?invoice_no=536373,9902,0,0
+1738095650090,673,HTTP Request - Data Item,200,OK,Thread Group 1-2,text,true,,3282,148,2,2,http://localhost:8000/data/536373?invoice_no=536373,673,0,0
+1738095650683,701,HTTP Request - Sales Summary,200,OK,Thread Group 1-1,text,true,,158,133,2,2,http://localhost:8000/sales_summary/,701,0,0
+1738095650764,689,HTTP Request - Sales Summary,200,OK,Thread Group 1-2,text,true,,158,133,2,2,http://localhost:8000/sales_summary/,685,0,0
+1738095651385,13702,HTTP Request - Data,200,OK,Thread Group 1-1,text,true,,105045525,142,2,2,http://localhost:8000/data/?invoice_no=536373,13514,0,0
+1738095651453,22868,HTTP Request - Data,200,OK,Thread Group 1-2,text,true,,105045525,142,2,2,http://localhost:8000/data/?invoice_no=536373,22694,0,0
+1738095665093,9777,HTTP Request - Data Item,200,OK,Thread Group 1-1,text,true,,3282,148,2,2,http://localhost:8000/data/536373?invoice_no=536373,9777,0,0
+1738095674321,715,HTTP Request - Data Item,200,OK,Thread Group 1-2,text,true,,3282,148,2,2,http://localhost:8000/data/536373?invoice_no=536373,715,0,0
+1738095674871,662,HTTP Request - Sales Summary,200,OK,Thread Group 1-1,text,true,,158,133,2,2,http://localhost:8000/sales_summary/,662,0,0
+1738095675036,623,HTTP Request - Sales Summary,200,OK,Thread Group 1-2,text,true,,158,133,1,1,http://localhost:8000/sales_summary/,623,0,0
