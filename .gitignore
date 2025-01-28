@@ -1,7 +1,26 @@
-.venv
-jmeter.log
-__pycache__
-*.pyc
-.pytest_cache
-.idea
-results.jtl
+# Python sanal ortamı
+.venv/
+env/
+
+# Pytest cache dosyaları
+.pytest_cache/
+
+# __pycache__ klasörleri
+**/__pycache__/
+
+# JMeter sonuçları
+*.jtl
+
+# JMeter test planları (eğer statik olarak saklanıyorsa hariç tutabilirsiniz)
+*.jmx
+
+# Veri dosyaları
+data/
+
+# IDE ve editör dosyaları
+.vscode/
+.idea/
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
